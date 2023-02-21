@@ -1,0 +1,4 @@
+,text_name,RelFreq_NOUN,RelFreq_VERB,RelFreq_ADJ,RelFreq_ADV,Unique_PER,Unique_LOC,Unique_ORG
+0,0158.b8.txt,1823.38,1086.4,698.86,387.55,0,3,6
+1,0219.b8.txt,1601.68,989.8,743.85,617.88,0,4,10
+2,0318.b8.txt,1655.44,1145.33,673.72,452.36,0,0,2
