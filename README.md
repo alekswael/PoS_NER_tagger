@@ -1,4 +1,11 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10145217&assignment_repo_type=AssignmentRepo)
+# *Author notes*
+
+Hi there!
+
+The code and all notes of explanation are written in the notebook called **assignment_1_aleksw.ipynb**.
+
+
+
 # Extracting linguistic features using spaCy
 
 This assignment concerns using ```spaCy``` to extract linguistic information from a corpus of texts.
