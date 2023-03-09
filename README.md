@@ -2,9 +2,16 @@
 
 Hi there!
 
-The code and all notes of explanation are written in the notebook called **assignment_1_aleksw.ipynb**.
+This repo contains a script called **get_linguistic_features.py**, which is a information extraction script including part-of-speech (PoS) tagging and named-entity recognition (NER). It extracts the relative frequency of Nouns, Verbs, Adjective, and Adverbs per 10,000 words and the total number of *unique* persons (PER), locations (LOC), and organisations (ORGS).
 
+For the script to work when run from the terminal, your current working directory should include:
+- The script
+- An "in" folder containing the corpus folder, containing one or more subfolders wherein the text files are located.
+- An "out" folder, which is where the output csv files will be saved.
 
+The script is written to analyze *The Uppsala Student English Corpus (USE)*, but should work with other texts, as long as the hirearchy of the corpus folder is preserved (*CWD/in/your_corpus/your_subfolders*)
+
+The script takes a single argument 
 
 # Extracting linguistic features using spaCy
 
