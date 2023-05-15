@@ -8,9 +8,12 @@ warnings.filterwarnings("ignore") # Ignore warnings.
 
 def input_parse(): # Function to parse command line arguments.
     # initialize the parser
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     # add arguments
-    parser.add_argument("--folder", help="Relative path to the corpus folder", type=str)
+    parser.add_argument("--folder",
+                        help="Relative path to the corpus folder",
+                        default="USEcorpus",
+                        type=str)
     # parse the arguments from the command line
     args = parser.parse_args()
     # get the name
@@ -111,4 +114,5 @@ def main():
     # pass name to hello function
     get_linguistic_features(args.folder)
 
-main()
+if __name__ == "__main__":
+    main()
