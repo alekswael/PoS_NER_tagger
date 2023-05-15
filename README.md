@@ -1,5 +1,5 @@
 <br />
-  <h1 align="center">Assignment 3: Using pretrained CNNs for image classification</h1> 
+  <h1 align="center">Assignment 1: Linguistic Analysis using NLP</h1> 
   <h2 align="center">Cultural Data Science, 2023</h2> 
   <h3 align="center">
   Author: Aleksander Moeslund Wael <br>
